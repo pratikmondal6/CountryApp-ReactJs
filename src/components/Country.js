@@ -4,7 +4,7 @@ import style from "./country.module.css"
 
 function Country(props) {
 
-    const  {name, flags, capital, population, area} = props.country;
+    const  {name, flags, population, area} = props.country;
 
     const handleRemoveCountry = (name) => {
         props.onRemoveCountry(name)
